@@ -52,7 +52,7 @@ style: |
 <!-- _class: title -->
 
 # 
-![bg](Llama2ハンズオンサムネイル.png)
+![bg](images/Llama2ハンズオンサムネイル.png)
 
 <!--
 _color: black
@@ -88,7 +88,7 @@ _color: black
 
  別で生成AIコミュニティのマネージャーもしてます
 
-![bg right](profile_image.jpg)
+![bg right](images/profile_image.jpg)
 
 ---
 
@@ -133,14 +133,14 @@ TkinterでGUIアプリを作るときは
 2.画面にボタンやフレームなどの部品を描画
 3.mainloopメソッドで２をループし続ける
 挿入図イメージ
-![width:600px](image-1.png)
+![width:600px](images/image-1.png)
 
 ---
 # Tkinterでチャットアプリを作るために必要な機能
 
 <!-- _class: image -->
 
-![width:500](llama2app.png)
+![width:500](images/llama2app.png)
 1.メッセージ表示機能
 2.メッセージ入力機能
 3.ステータス表示機能
@@ -161,9 +161,9 @@ Mac .venv/bin/activate Windows .venv/Scripts/activate
 # 開発環境を準備しよう
 1.VSCode上でmain.pyを作成
 2.画面の右上を確認して以下のような表記があればOK
-![](python_env_image.png)
+![](images/python_env_image.png)
 3.でなければ、拡張機能を左のメニューのExtensionsからインストール
-![](extensions_image.png)
+![](images/extensions_image.png)
 
 ---
 
@@ -178,7 +178,7 @@ pip install llama2-cpp-python
 
 # 早速Llama2モデルを動かそう
 
-![width:1200px](program1.png)
+![width:1200px](images/program1.png)
 
 これだけでLlama2を動かして文章を生成することができます
 
