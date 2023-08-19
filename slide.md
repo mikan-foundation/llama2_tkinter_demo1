@@ -173,12 +173,14 @@ Llama2はMetaとMicrosoftが開発したLLMで
 #### 1.discordに送信したLlama2ライセンスのコピーを読んでください
 #### 2.discordに送信したモデルのダウンロードリンクからダウンロードしてください
 #### 3.VSCodeのターミナルから以下のコマンドを実行してください
-`pip install llama2-cpp-python`
+`pip install llama-cpp-python`
+
+### ※コードやコマンドは全てdiscordのllama2アプリ第1回チャンネルにも貼っていきます
 
 ---
 
 # 早速Llama2モデルを動かそう
-
+`generate.py`
 ![width:1200px](images/program1.png)
 
 これだけでLlama2を動かして文章を生成することができます
@@ -187,8 +189,36 @@ Llama2はMetaとMicrosoftが開発したLLMで
 
 # Tkinterでテキストを表示する
 
+`first-tkinter.py`
+![width:1200px](images/program2.png)
+
+**実行するとタイトルとテキストのみの単純なデスクトップアプリが表示されます**
+
+---
+# テキストボックスを作る
+
+`textbox.py`
+![width:1200px](images/program3.png)
+
 ---
 
-# ボタンの機能をつける
+# ボタンに機能をつける
+
+`make-button.py`
+![width:1000px](images/program4.png)
 
 ---
+
+# ボタンを押した後の処理を追加する
+`click-button.py`
+![width:900px](images/program5.png)
+
+---
+
+# ※余裕がある人向け:Llama2の文章を翻訳しよう
+
+### 以下のコマンドを実行してgoogletransのver4.0.0-rc1をインストールした後、下記のプログラムを実行する
+`pip install googletrans==4.0.0-rc1`
+
+`translate-jp.py`
+![width:700px](images/program6.png)
